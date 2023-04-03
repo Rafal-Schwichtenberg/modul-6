@@ -44,6 +44,23 @@ h2 {
 .section__list {
   background-color: #fff;
   min-height: 20px;
+  list-style: none;
+  padding: 0 20px;
+}
+
+.section__list-item {
+  display: flex;
+  padding: 12px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.section__list-item-content {
+  padding: 0 8px;
+  flex-grow: 1;
+}
+
+.section__list-item-complete {
+  width: 32px;
 }
 
 .section__button {
@@ -57,4 +74,8 @@ h2 {
 
 .section--bottom {
   margin-top: 8px;
+}
+
+.task-completed{
+  text-decoration: line-through;
 }
