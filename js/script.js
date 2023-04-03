@@ -17,6 +17,8 @@
     });
 
     render();
+    document.querySelector(".js-newTasks").value=""; 
+  
   };
 
   const removeTask = (taskIndex) => {
@@ -75,6 +77,7 @@
     if (newTaskContent === "") {
       return;
     }
+    
 
     addNewTask(newTaskContent);
   };
