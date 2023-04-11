@@ -106,8 +106,9 @@ h2 {
     width: 100%;
   }
    .section__input {
-   
     margin-bottom: 10px;
+    margin-right: 16px;
+    
 
   }
 }
