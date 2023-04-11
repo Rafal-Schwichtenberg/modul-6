@@ -57,7 +57,7 @@
               <span class="section__list-item-content ${task.done ? 'task-completed' : ""}">
                 ${task.content}
               </span>
-              <button class="js-remove">🗑️</button>
+              <button class="section__list-item-remove js-remove">🗑️</button>
               </li>
               `;
     }
