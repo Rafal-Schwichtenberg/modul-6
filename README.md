@@ -11,6 +11,7 @@
 1.  Adding styling in css,_
 2.  Using JS
 3.  BEM
+4.  @Media query
 
 ![readme-image](jpg/empty.jpg)
 ![readme-image](jpg/zadania.jpg)
